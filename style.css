@@ -1,0 +1,103 @@
+head{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 20vh;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 80vh;
+    font-family: "Poppins";
+    font-size: 14px;
+}
+
+#cabecera{
+    background-color: rgb(255, 255, 255);
+    height: 22%;
+}
+
+#inicio{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(183, 209, 226);
+    height: 90%;
+}
+
+.logo{
+    color: rgb(60, 79, 109);
+    font-size: large;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-weight: 600;
+    text-align: center;
+    height: 10%;
+
+}
+
+.menu{
+    font-size: small;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#presentacion{
+    display: grid;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo{
+    font-size: large;
+    font-weight: 600;
+    color: rgb(60, 79, 109);
+    text-align: center;
+    padding-top: 5%;
+    font-family: "Garamound";
+    font-size: 30px;
+}
+
+.texto{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+
+#bloque1{
+    display: grid;
+    grid-template-areas: "foto1 info1";
+}
+
+#foto1{
+    grid-area: foto1;
+    background-color: rgb(87, 106, 122);
+    height: 100%;
+    width: 50px;
+
+}
+
+#info1{
+    grid-area: info1;
+}
+
+
+#titulo{
+    font-size: large;
+    font-weight: 600;
+    color: rgb(60, 79, 109);
+    text-align: left;
+    padding-top: 5%;
+    font-family: "Garamound";
+    font-size: 25px;
+}
+
+#enlace{
+    color: rgb(22, 78, 151);
+}
