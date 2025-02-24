@@ -9,11 +9,17 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <div id="cabecera">
         <div class="menu_superior">
-            <div class="buscador"><img src="./Iconos/shopping_bag_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg"></img></div>
-            <div class="logo"></div>
-            <div class="contacto"></div>
-            <div class="carrito"></div>
-            
+            <div id="iconos">
+                <div class="buscador"></div>
+                <div class="buscador"></div>
+                <div class="buscador"><img src="./Iconos/search_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg"></img></div>
+            </div>
+            <div class="logo"><img src="./Imagenes/logo-aquintadaauga.png"></img></div>
+            <div id="iconos">
+                <div class="contacto"><img src="./Iconos/call_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg"></img></div>
+                <div class="carrito"><img src="./Iconos/shopping_bag_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg"></img></div>
+                <div class="cuenta"><img src="./Iconos/person_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg"></img></div>
+            </div>
         </div>
         <div class="menu">
             <div id="apartados">A Quinta da Auga</div>
@@ -28,11 +34,22 @@
     </div>
 </head>
 <body>
-    <div id="inicio"><a class="imagen_principal"></a></div>
+    <div id="inicio">
+        <div id="reserva">
+            <p class="reserva_texto">Alójase con nosotros</p>
+            <div>1 hab. 2 adultos ></div>
+            <div>Desde ></div>
+            <div>Hasta ></div>
+            <div>Código promocional</div>
+            <form><input type="checkbox">Mascotas</form>
+            <form id="boton"><input type="submit" value="Reservar"></form>
+        </div>
+        <a class="imagen_principal"></a>
+    </div>
     <div id="presentacion">
         <div class="titulo">Sobre Nosotros</div>
-        <div class="texto">"A Quinta da Auga Hotel Spa Relais&Clâteaux diseña experiencias exclusiva y únicas disponibles en CHEQUES REGALO, tanto para conocer la cuidad de Santiago de Compostela y el resto de Galicia, como para mimarse a diario o romper la rutina."</div>
-        <div class="boton">Ver todas las estancias</div>
+        <div class="texto">"<strong>A Quinta da Auga Hotel Spa Relais&Clâteaux</strong> diseña experiencias exclusiva y únicas disponibles en CHEQUES REGALO, tanto para conocer la cuidad de Santiago de Compostela y el resto de Galicia, como para mimarse a diario o romper la rutina."</div>
+        <form id="boton"><input type="submit" value="Ver todas las estancias"></form>
     </div>
     
     <div id="bloque1">
