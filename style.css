@@ -8,7 +8,6 @@ head{
 body{
     margin: 0;
     padding: 0;
-    width: 100vw;
     height: 80vh;
     font-family: "Poppins";
     font-size: 14px;
@@ -28,7 +27,7 @@ body{
     align-items: center;
     background-image: url(./Imagenes/anexo-salon-fonte-web.jpg);
     background-size: cover;
-    height: 100%;
+    height: 36em;
     position: relative;
 }
 
@@ -67,6 +66,14 @@ body{
     justify-content:space-evenly;
     width: 90em;
     justify-items: center;
+    align-items:center ;
+}
+
+.codigo{
+    background-color:  rgba(60, 79, 109, 0.103);
+    padding: 0.4em;
+    color: rgb(60, 79, 109);
+    font-size: small;
 }
 
 #apartados{
@@ -101,7 +108,7 @@ body{
     font-weight: 600;
     color: rgb(60, 79, 109);
     text-align: center;
-    padding-top: 5%;
+    padding-top: 3%;
     font-family: "Garamound";
     font-size: 30px;
 }
@@ -180,9 +187,75 @@ body{
     width: 30em;
 }
 
-#boton{
-    display: inline-flex;
-    width: 5em;
-    background-color: #70849c;
-    color:white;
+#presentacion_historia{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5em;
+
+}
+
+#bloque5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo5{
+    font-size: large;
+    font-weight: 600;
+    color: rgb(60, 79, 109);
+    text-align: left;
+    font-family: "Garamound";
+    font-size: 25px;
+    padding-bottom: 0.5em;
+    justify-content: center;
+    text-align: center;
+}
+
+.subtitulo5{
+    color: rgb(60, 79, 109);
+    padding-bottom: 0.5em;
+    font-weight: 400;
+}
+
+#subloque1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:5em;
+}
+
+.foto1_bloque5{
+    background-image:url(./Imagenes/spa-privado-a-quinta-da-auga_1.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30em;
+    width: 20em;
+    background-position: center;
+}
+
+.foto2_bloque5{
+    background-image:url(./Imagenes/mesas-jardines-aquintadaauga-2.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30em;
+    width: 20em;
+    background-position: center;
+}
+
+.foto3_bloque5{
+
+    background-image: url(./Imagenes/803b49ddc2ba8c0ffeeaec24c7d5cf78.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20em;
+    width: 20em;
+    background-position: center;
 }
