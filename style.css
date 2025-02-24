@@ -87,11 +87,13 @@ body{
 }
 
 #presentacion{
-    display: grid;
+    display: flex;
     width: 100%;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
     text-align: center;
+
 }
 
 .titulo{
@@ -111,25 +113,26 @@ body{
     padding-top: 2%;
     padding-bottom: 2%;
 }
-
-
 #bloque1{
-    display: grid;
-    grid-template-areas: "foto1 info1";
+    padding-top: 3em;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap:15em;
 }
 
 #foto1{
-    grid-area: foto1;
-    background-color: rgb(87, 106, 122);
-    height: 100%;
-    width: 50px;
-
+    background-image: url(./Imagenes/habitacion_hotel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30em;
+    width: 45em;
 }
 
 #info1{
-    grid-area: info1;
+    padding-top: 5em;
+    width: 30em;
 }
-
 
 #titulo{
     font-size: large;
@@ -139,8 +142,47 @@ body{
     padding-top: 5%;
     font-family: "Garamound";
     font-size: 25px;
+    padding-bottom: 0.5em;
+}
+
+#subtitulo{
+    color: rgb(60, 79, 109);
+    padding-bottom: 1em;
+    font-weight: 400;
+}
+
+#texto{
+    padding-bottom: 0.5em;
 }
 
 #enlace{
     color: rgb(22, 78, 151);
+}
+
+#bloque2{
+    padding-top: 3em;
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap: wrap;
+    gap:15em;
+}
+
+#foto2{
+    background-image: url(./Imagenes/boda-a-quinta-da-agua-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30em;
+    width: 45em;
+}
+
+#info2{
+    padding-top: 5em;
+    width: 30em;
+}
+
+#boton{
+    display: inline-flex;
+    width: 5em;
+    background-color: #70849c;
+    color:white;
 }
