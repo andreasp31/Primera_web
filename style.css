@@ -100,6 +100,7 @@ body{
     align-content: center;
     justify-content: center;
     text-align: center;
+    padding-bottom:1em;
 
 }
 
@@ -195,10 +196,10 @@ body{
     justify-content: center;
     text-align: center;
     padding-bottom: 5em;
-
 }
 
 #bloque5{
+    padding-top: 4em;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -229,7 +230,10 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap:5em;
+    gap:2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
 }
 
 .foto1_bloque5{
@@ -239,10 +243,24 @@ body{
     height: 30em;
     width: 20em;
     background-position: center;
+    transition: 0.3s;
+}
+
+.foto1_bloque5:hover{
+    filter: opacity(1);
 }
 
 .foto2_bloque5{
     background-image:url(./Imagenes/mesas-jardines-aquintadaauga-2.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35em;
+    width: 30em;
+    background-position: center;
+}
+
+.foto3_bloque5{
+    background-image: url(./Imagenes/803b49ddc2ba8c0ffeeaec24c7d5cf78.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 30em;
@@ -250,12 +268,20 @@ body{
     background-position: center;
 }
 
-.foto3_bloque5{
-
-    background-image: url(./Imagenes/803b49ddc2ba8c0ffeeaec24c7d5cf78.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+#footer{
+    background-color:  rgba(60, 79, 109, 0.103);
     height: 20em;
-    width: 20em;
-    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer_superior{
+    height: 17em;
+    display: flex;
+    flex-direction: row;
+}
+
+#footer_inferior{
+    background-color:  rgb(255, 255, 255);
+    height: 3em;
 }
