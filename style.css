@@ -273,15 +273,54 @@ body{
     height: 20em;
     display: flex;
     flex-direction: column;
+    font-size: small;
 }
 
 #footer_superior{
-    height: 17em;
+    padding-top: 3em;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
-#footer_inferior{
-    background-color:  rgb(255, 255, 255);
-    height: 3em;
+.footer_menu{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+}
+
+.titulo_footer{
+    font-size: large;
+    font-weight: 600;
+    color: rgb(60, 79, 109);
+    font-family: "Garamound";
+}
+
+.redes{
+    padding-top: 1em;
+    display: grid;
+    grid-template-areas: "insta    facebook"
+                         "twitter  youtube";
+    gap:1em;
+}
+
+.insta{
+    grid-area: insta;
+}
+
+.facebook{
+    grid-area: facebook;
+}
+
+.twitter{
+    grid-area: twitter;
+}
+
+.youtube{
+    grid-area: youtube;
 }
