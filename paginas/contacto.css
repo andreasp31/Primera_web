@@ -1,0 +1,226 @@
+head{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 20vh;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    font-family: "Poppins";
+    font-size: 14px;
+}
+
+#cabecera{
+    background-color: rgb(255, 255, 255);
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+#apartados{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+#apartados:hover{
+    border-bottom: 2px solid #3586bc;
+    color:#3586bc;
+}
+
+#inicio{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(./Imagenes/anexo-salon-fonte-web.jpg);
+    background-size: cover;
+    height: 36em;
+    position: relative;
+}
+
+.menu_superior{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#iconos{
+    display: flex;
+    gap:1.4em;
+    padding-right: 3%;
+}
+
+.buscador{
+    height: 4%;
+    align-items: left;
+}
+
+.menu{
+    font-size: small;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contacto{
+    height: 35em;
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+}
+
+.izquierda{
+    padding-left: 3em;
+    padding-top: 8em;
+}
+
+.titulo{
+    font-size: large;
+    font-weight: 600;
+    color: rgb(60, 79, 109);
+    text-align: left;
+    font-family: "Garamound";
+    font-size: 3em;
+    padding-bottom: 0.5em;
+}
+
+.subtitulo{
+    color: rgb(60, 79, 109);
+    padding-bottom: 1em;
+    font-weight: 400;
+}
+
+.subtitulo_pequeno{
+    color: rgb(60, 79, 109);
+    padding-top: 1em;
+    font-weight: 400;
+}
+
+.texto{
+    text-align: left;
+    width: 40em;
+    padding-bottom: 1em;
+}
+
+.texto_pequeno{
+    text-align: left;
+    font-size: small;
+}
+
+.foto{
+    background-image: url(../Imagenes/hotel-spa-a-quinta-da-auga-planta-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40em;
+    height: 15em;
+}
+
+.derecha{
+    padding-top: 5em;
+    display: flex;
+    flex-direction: column;
+    gap:3em;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    gap:10em;
+}
+
+#footer{
+    background-color:  rgba(60, 79, 109, 0.103);
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+#footer_superior{
+    padding-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.footer_menu{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+}
+
+.titulo_footer{
+    font-size: large;
+    font-weight: 600;
+    color: rgb(60, 79, 109);
+    font-family: "Garamound";
+}
+
+.redes{
+    padding-top: 1em;
+    display: grid;
+    grid-template-areas: "insta    facebook"
+                         "twitter  youtube";
+    gap:1em;
+}
+
+.insta{
+    grid-area: insta;
+}
+
+.facebook{
+    grid-area: facebook;
+}
+
+.twitter{
+    grid-area: twitter;
+}
+
+.youtube{
+    grid-area: youtube;
+}
+
+#boton{
+    background-color: rgba(60, 79, 109, 0.795);
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 8em;
+    align-self: center;
+    color:white;
+}
+
+.boton{
+    background-color: rgba(60, 79, 109, 0.795);
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 3em;
+    align-items: center;
+    justify-self: center;
+    color:white;
+}
+
+.botones{
+    background-color: rgba(60, 79, 109, 0.795);
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 4em;
+    align-items: center;
+    justify-self: center;
+    color:white;
+}
