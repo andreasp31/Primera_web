@@ -324,3 +324,35 @@ body{
 .youtube{
     grid-area: youtube;
 }
+
+#boton{
+    background-color: rgba(60, 79, 109, 0.795);
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 8em;
+    align-self: center;
+    color:white;
+}
+
+.boton{
+    background-color: rgba(60, 79, 109, 0.795);
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 3em;
+    align-items: center;
+    justify-self: center;
+    color:white;
+}
+
+.botones{
+    background-color: rgba(60, 79, 109, 0.795);
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 4em;
+    align-items: center;
+    justify-self: center;
+    color:white;
+}
